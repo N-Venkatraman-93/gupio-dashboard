@@ -1,5 +1,4 @@
-// src/components/CustomSearchBar.jsx
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const CustomSearchBar = ({ onSearch, allCategories }) => {
   const [query, setQuery] = useState('');
@@ -18,14 +17,16 @@ const CustomSearchBar = ({ onSearch, allCategories }) => {
   }, [query, selected]);
 
   return (
-    <div className="bg-white p-4 rounded shadow-md mb-4">
-      <input
-        type="text"
-        placeholder="Search products..."
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        className="border px-4 py-2 rounded w-full mb-4"
-      />
+    <div className="bg-white p-4 rounded shadow-md mb-4 flex flex-col gap-4">
+      <div className="flex gap-4">
+        <input
+          type="text"
+          placeholder="Search products..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          className="flex-1 border border-gray-300 px-4 py-2 rounded"
+        />
+      </div>
 
       <div className="flex flex-wrap gap-3">
         {allCategories.map((cat) => (
