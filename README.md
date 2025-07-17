@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 🛍️ Gupio Dashboard – E-Commerce React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive and modern e-commerce dashboard built with **React**, **Redux Toolkit**, and **Tailwind CSS**. Includes product listing, cart functionality, favourites, filtering, sorting, dark mode toggle, and more.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔗 Project Links
 
-### `npm start`
+- 📂 GitHub Repo: [github.com/N-Venkatraman-93/gupio-dashboard](https://github.com/N-Venkatraman-93/gupio-dashboard)
+- 🌐 Live Demo: [https://gupio-dashboard.vercel.app/](https://gupio-dashboard.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+### 🛒 Product Listing Page
+- Category filter
+- Live search
+- Price sorting (Low → High, High → Low)
+- Quantity selector
+- Add to Cart
+- Add/Remove Favourites
+- Badge counts for Cart and Favourites
+- Mobile-first responsive layout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📄 Product Detail Page
+- Product info display
+- Quantity selector with total price
+- Add to Cart
+- Add/Remove Favourites
 
-### `npm run build`
+### ❤️ Favourites Page
+- View all liked products
+- Remove favourites
+- Works in both Light and Dark mode
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🧺 Cart Page
+- View added products
+- Increase/Decrease quantity
+- Remove item
+- Dynamic Total price
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🌙 UI / UX
 
-### `npm run eject`
+- ✅ **Dark Mode Toggle** (🌞/🌙)
+- ✅ **Fully Responsive** (Mobile, Tablet, Desktop)
+- ✅ **Animated Transitions**
+- ✅ **Hamburger Menu on small screens**
+- ✅ **Tailwind Utility Styling**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧰 Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Tech            | Description               |
+|-----------------|---------------------------|
+| React           | Frontend Framework        |
+| Redux Toolkit   | State Management          |
+| React Router    | Page Navigation           |
+| Tailwind CSS    | Utility-first CSS         |
+| Vite            | Lightning-fast bundler    |
+| Vercel          | Hosting & Deployment      |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Clone the Repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/N-Venkatraman-93/gupio-dashboard.git
+cd gupio-dashboard
