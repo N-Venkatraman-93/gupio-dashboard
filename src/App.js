@@ -6,9 +6,6 @@ import FavouritesPage from './features/favourites/FavouritesPage';
 import ProductDetail from './features/products/ProductDetail';
 import CartPage from './features/cart/CartPage';
 
-// inside <Routes>
-
-
 function App() {
   return (
     <Router>
@@ -17,7 +14,7 @@ function App() {
         <Route path="/cart" element={<CartPage />} />
         <Route path="/" element={<ProductList />} />
         <Route path="/favourites" element={<FavouritesPage />} />
-        <Route path="/product/:id" element={<ProductDetail />} /> {/* ✅ This should be inside Routes */}
+        <Route path="/product/:id" element={<ProductDetail />} />
       </Routes>
     </Router>
   );

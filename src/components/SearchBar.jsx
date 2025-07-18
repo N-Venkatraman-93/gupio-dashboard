@@ -1,13 +1,12 @@
-// src/components/SearchBar.jsx
 import React, { useState, useEffect } from 'react';
 
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState('');
-  
+
   useEffect(() => {
     const delay = setTimeout(() => {
       onSearch(query);
-    }, 500); // debounce 500ms
+    }, 500);
 
     return () => clearTimeout(delay);
   }, [query, onSearch]);

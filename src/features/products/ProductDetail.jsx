@@ -1,4 +1,3 @@
-// src/features/products/ProductDetail.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
@@ -42,9 +41,8 @@ const ProductDetail = () => {
           <div className="mt-4 flex gap-4">
             <button
               onClick={() => dispatch(toggleFavourite(product))}
-              className={`px-4 py-2 rounded ${
-                isFavourite ? 'bg-red-500 text-white' : 'bg-red-100 text-red-600'
-              }`}
+              className={`px-4 py-2 rounded ${isFavourite ? 'bg-red-500 text-white' : 'bg-red-100 text-red-600'
+                }`}
             >
               {isFavourite ? '❤️ Remove Favourite' : '🤍 Add to Favourite'}
             </button>

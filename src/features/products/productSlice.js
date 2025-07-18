@@ -1,8 +1,6 @@
-// src/features/products/productSlice.js
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-// Fetch all products from Fake Store API
 export const fetchProducts = createAsyncThunk(
   'products/fetchProducts',
   async () => {

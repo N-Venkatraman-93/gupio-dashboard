@@ -1,4 +1,3 @@
-// src/components/CustomSearchBar.jsx
 import React, { useEffect, useState } from 'react';
 
 const CustomSearchBar = ({ onSearch, allCategories }) => {
